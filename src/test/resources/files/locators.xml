@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PizzaForm>
+
+<pizza1By>//*[@id="pizza1Pizza"]</pizza1By>
+
+<pizza1Toppings1By>//div[@id='pizza1']//select[@class='toppings1']</pizza1Toppings1By>
+<firstOptionBy>//*[@id="pizza1Pizza"]/option[2]</firstOptionBy>
+<secondOptionBy>//*[@id="pizza1Pizza"]/option[3]</secondOptionBy>
+<pizza1Toppings2By>//div[@id='pizza1']//select[@class='toppings2'</pizza1Toppings2By>
+<Topping1By>//*[@id="pizza1"]/select[2]</Topping1By>
+<carmOnionsBy>//*[@id="pizza1"]/select[2]/option[5]</carmOnionsBy>
+
+<pizza1QtyBy>//*[@id="pizza1Qty"]</pizza1QtyBy>
+<pizza1CostBy>pizza1Cost</pizza1CostBy>
+
+<radioCreditCardBy>ccpayment</radioCreditCardBy>
+<radioCashBy>//input[@id='cashpayment']</radioCashBy>
+
+<emailBy>//input[@id='email']</emailBy>
+<nameBy>//input[@id='name']</nameBy>
+<phoneBy>//input[@id='phone']</phoneBy>
+
+<placeOrderButtonBy>//button[@id='placeOrder']</placeOrderButtonBy>
+<OrderAlert>//div[@id='dialog']</OrderAlert>
+<resetButtonBy>//button[@id='reset']</resetButtonBy>
+
+</PizzaForm>

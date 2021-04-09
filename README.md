@@ -47,5 +47,63 @@ We will be evaluating
 
 #### Test Cases
 
- 1.  
+ 1.  Test 1
+Check system behavior when valid values are entered. 
+
+ 2. Test 2
+Check system behavior when invalid values are entered.
+
+ 3.Test 3
+Check system behavior when values are left blank.
+
+ 4.Test 4
+Check system behavior when pizza selection is not chosen and all other values are valid.
+
+ 5.Test 5
+Check system behavior when ‘small 6 slices - no toppings’ is selected and toppings are chosen.
+
+ 6.Test 6 
+ Check behavior of Topping 1 drop down menu
+ 
+ 7.Test 7 
+ Check behavior of Topping 2 drop down menu
+ 
+ 8.Test 8 
+ Check system behavior when valid data is entered and email box is left blank
+ 
+ 9.Test 9 
+ Check system behavior when valid options are selected with name and phone boxes left blank
+ 
+ 10.Test 10 
+ Check system behavior when the following is entered into the quantity box: -2, 0, 1, 500, 99999, 200000
+ 
+ 11.Test 11 
+ check system behavior when the following is entered into the phone box: 8, 2147874324, 78576587569385
+ 
+ 12.Test 12 
+ Check system behavior when the following is entered into the name box: j, Jillian, (100 Characters) abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrs, (Over 100 characters) Hdidjbdkendgjdkebdjjvejxkejhfuekdhjrixjebdjxjenbcudojrgcufirguwow n dhjdkddndjdorjdhfhdjdbxhjdjfikebdjdoebhxidhdkdnrjdiekdbdilehfjiddhdjodjdhfheksnchdjke b bxhke b dhdjidjdhfhfjwjdbdjkdkdhjd, 55
+ 
+ 13. Test 13 
+ Enter valid information and reset the form to check reset behavior.
+ 
+ 14. Test 14 
+ Check system behavior with valid info and CCPayment radio button selected.
+ 
+ 15. Test 15 
+ Check system behavior with valid info and CashPayment radio button selected.
+ 
+ 
+ Defects
+ 
+ 1. Radio buttons allow user to select both options. Only one should be allowed.
+ 2. Negative quantities of pizza and the quantity '0' is accepted by the ordering system. Valid inputs should be 1 to 99999.
+ 3. When selecting a pizza with multiple toppings the order is accepted even when no toppings have been selected by the user.
+ 4. When '1 topping pizza' has been selected the user is still able to chose 2 toppings.
+ 5. When no pizza has been chosen the order is still accepted with a name and phone number.
+ 6. The phone number accepts invalid phone numbers (numbers less than and more than 10 digits).
+ 7. There is no space between 'Toppings' and '2'
+ 8. Reset button does not reset either toppings drop down menus.
+ 9. 'Choose a Toppings 1' should be 'Choose Topping 1' and 'Choose a Toppings 2' should be 'Choose Topping 2'. *Depending on the clients requirements this may not be a defect.
+ 10. The quantity box allows for letters to be entered and the order to be accepted. Only numeric values should be accepted by the user.
+ 11. Tax is not applied to the total cost of the order.
 
